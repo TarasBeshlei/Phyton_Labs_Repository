@@ -9,10 +9,11 @@ class Item_type(Enum):
 
 class Items:
 
- def __init__(self, name, item_type, price):
+ def __init__(self, name, item_type, price, brand):
      self.item_type = item_type
      self.price = price
      self.name = name
+     self.brand = brand
 
 
  def __str__(self):
